@@ -15,3 +15,12 @@ if keuze_speler1 == 'steen' and keuze_speler2 == 'schaar':
     print('speler 1 wint')
 if keuze_speler1 == keuze_speler2:
     print('onbeslist')
+
+if keuze_speler1 == keuze_speler2
+    print('onbeslist')
+
+elif (keuze_speler1 == 'blad' and keuze_speler2 == 'steen') or (keuze_speler1 == 'steen' and keuze_speler2 == 'schaar')
+    print('speler 1 wint')
+
+else
+    print('speler 2 wint')
