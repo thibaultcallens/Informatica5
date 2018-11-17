@@ -11,3 +11,15 @@ elif x > 2:
             a,b = b,a+b
         return a
     print(fib(x))
+
+##############################################
+
+n = int(input('Hoeveelste getal van Fibonacci: '))
+
+vorige, huidige = 1, 1
+
+for i in range (n - 2):
+    vorige, huidige = huidige, huidige + vorige
+
+print(huidige)
+

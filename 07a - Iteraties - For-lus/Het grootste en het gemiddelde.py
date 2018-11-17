@@ -14,3 +14,17 @@ for i in range(aantal_getallen):
 gemiddelde = round((som / aantal_getallen), 2)
 
 print('{} {:d} {} {:.2f}'.format('Het grootste getal is', max , 'en het gemiddelde is', gemiddelde))
+
+####################################
+aantal = int(input('aantal: '))
+
+grootste = int(input('getal: '))
+som = grootste
+for i in range(aantal - 1):
+    getal = int(input('getal: '))
+    som += getal
+    if(getal > grootste):
+        grootste = getal
+
+print('Het grootste getal is {} en het gemiddelde is {:.2f}'.format(grootste, som / aantal))
+
