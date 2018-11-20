@@ -1,10 +1,13 @@
 getal = int(input('Geef een getal: '))
-if getal > 1:
-    for i in range(2, getal):
-        if (getal % i) == 0:
-            print(getal, "is geen priemgetal")
-            break
-    else:
-        print(getal, "is een priemgetal")
-else:
-  print('{} is geen priemgetal'.format(getal))
+n = 2
+i = 1
+while n < getal:
+    if (getal % n) == 0:
+        antw = '{} is geen priemgetal'.format(getal)
+        i = 0
+    n += 1
+if i and getal != 1:
+    antw = '{} is een priemgetal'.format(getal)
+elif getal == 1:
+    antw = '1 is geen priemgetal'
+print(antw)
