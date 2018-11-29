@@ -11,3 +11,21 @@ if i and getal != 1:
 elif getal == 1:
     antw = '1 is geen priemgetal'
 print(antw)
+
+##########################################
+
+getal = int(input('getal: '))
+
+# zolang je het niet kan delen door 2,3,4 is het een priegetal
+
+deler = 2
+
+while getal % deler != 0 and getal != 1:
+    deler += 1
+
+if deler == getal:
+    print('priemgetal')
+else:
+    print('geen priemgetal')
+
+###########################################
