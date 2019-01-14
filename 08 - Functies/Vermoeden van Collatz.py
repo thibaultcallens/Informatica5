@@ -8,12 +8,11 @@ def volgend_collatz_getal(n):
 
 
 def collatz(n):
-    cyclelengte = 0
-    while volgend_collatz_getal(n) != 1:
+    cyclelengte = 1
+    while n != 1 :
         cyclelengte += 1
-        volgend_collatz_getal(n
+        n = volgend_collatz_getal(n)
     return cyclelengte
-
 
 
 

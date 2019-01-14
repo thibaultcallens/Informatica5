@@ -2,6 +2,7 @@ aantal = int(input('Geef getal: '))
 base = str(input('Geef een base: '))
 basen = base
 soorten_basen = ''
+
 for i in range(1, aantal):
     base = str(input('Geef een base: '))
     soorten_basen += basen

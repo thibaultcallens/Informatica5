@@ -19,7 +19,7 @@ def is_priem(n):
 ############################################"
 appel = 'appel'
 banaan = 'banaan'
-kers = 'kers'
+kers = 'kers '
 def print_fruit():
     appel = 'olifant'
     banaan = 'aapje'
